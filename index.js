@@ -34,9 +34,8 @@ const questions = [{
     name: 'license',
     message: 'What license would you like your project to have?',
     choices:[
-        'MIT License',
-        'GNU General Public License',
-        'Enter My Own', 
+        'MIT',
+        'GNUGeneralPublic'
     ]
 },
 {
@@ -45,7 +44,6 @@ const questions = [{
     message: 'What are your standards for contributing?',
     choices:[
         'Contributor Covenant',
-        'Add My Own',
     ]
 },
 {
@@ -58,17 +56,26 @@ const questions = [{
     name: 'questions',
     message: 'How could someone reach you with questions about project?'
 }
-]
+];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(filename, data) {
+    fs.writeFile('README.md', filename(data), (err) => {
+        if (err) throw err;
+        console.log('success!')
+    });
 }
 
 // function to initialize program
 function init() {
-    const asnwers = inquirer.prompt(questions)
-    .then(function(data){console.log(data);})
+    inquirer.prompt(questions)
+    .then(function(data){
+        console.log(data)
+        // markDown(data);
+        writeToFile(markDown, data)
+    })
 }
+
 
 // function call to initialize program
 init();
