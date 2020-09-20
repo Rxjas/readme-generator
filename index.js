@@ -20,6 +20,11 @@ const questions = [{
 },
 {
     type: 'input',
+    name: 'deployed',
+    message: 'What is the link the deployed project?' 
+},
+{
+    type: 'input',
     name: 'installation',
     message: 'How do you install the project?'
 },
@@ -34,8 +39,9 @@ const questions = [{
     name: 'license',
     message: 'What license would you like your project to have?',
     choices:[
-        'MIT',
-        'GNUGeneralPublic'
+        'MITLicense',
+        'GNUGeneralPublicLicense',
+        'Add My Own'
     ]
 },
 {
@@ -44,6 +50,7 @@ const questions = [{
     message: 'What are your standards for contributing?',
     choices:[
         'Contributor Covenant',
+        'Add My Own'
     ]
 },
 {
@@ -57,6 +64,7 @@ const questions = [{
     message: 'How could someone reach you with questions about project?'
 }
 ];
+
 
 // function to write README file
 function writeToFile(filename, data) {

@@ -1,6 +1,8 @@
 
-  # test https://img.shields.io/badge/License-MIT-yellow
-  * https://github.com/rxjas
+  # test https://img.shields.io/badge/License-MITLicense-yellow
+
+  * https://github.com/test
+
   ## Description 
     test
 
@@ -8,19 +10,25 @@
   * [Preview](#Preview)
   * [Installation](#Installation)
   * [Usage](#Usage)
+  * [License](#License)
   * [Contributing](#Contributing)
   * [Test](#Tests)
   * [Questions?](#Questions?)
      
   ## Preview
   ![](INSERT FILE PATH TO IMAGE/GIF HERE)
-  ##### LINK TO DEPLOYED APPLICATION
+
+  ###### Deployed Project
+    test
 
   ## Installation
     test
 
   ## Usage
     undefined
+
+  ## License
+    Licensed under the MITLicense
 
   ## Contributing
     Contributor Covenant
@@ -29,6 +37,6 @@
     test
 
   ## Questions?
-    test
+    Send to: test
 
 
