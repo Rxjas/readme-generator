@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const markDown = require('./utils/generateMarkdown')
-console.log(markDown)
+
 // array of questions for user
 const questions = [{
     type: 'input',
@@ -26,7 +26,7 @@ const questions = [{
 {
     type: 'input',
     name: 'installation',
-    message: 'How do you install the project?'
+    message: 'How do you install to the project?'
 },
 {
     type: 'input',
@@ -78,8 +78,6 @@ function writeToFile(filename, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data){
-        console.log(data)
-        // markDown(data);
         writeToFile(markDown, data)
     })
 }

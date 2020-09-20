@@ -1,11 +1,11 @@
 
-  # test 
+  # readme generator
   ![](https://img.shields.io/badge/License-MITLicense-yellow)
 
-  * https://github.com/test
+  [Creator](https://github.com/rxjas)
 
   ## Description 
-    test
+    creates the readme you have always imagined
 
   ## Table of Contents
   * [Preview](#Preview)
@@ -19,11 +19,10 @@
   ## Preview
   ![](INSERT FILE PATH TO IMAGE/GIF HERE)
 
-  ###### Deployed Project
-    test
+  [Deployed](https://test.com)
 
   ## Installation
-    test
+    easily
 
   ## Usage
     undefined
@@ -35,9 +34,9 @@
     Contributor Covenant
 
   ## Tests
-    test
+    IDK
 
   ## Questions?
-    Send to: test
+    Send to: 123@123.com
 
 

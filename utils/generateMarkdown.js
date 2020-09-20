@@ -4,7 +4,7 @@ function generateMarkdown(data) {
   # ${data.title}
   ![](https://img.shields.io/badge/License-${data.license}-yellow)
 
-  * https://github.com/${data.github}
+  [Creator](https://github.com/${data.github})
 
   ## Description 
     ${data.description}
@@ -21,8 +21,7 @@ function generateMarkdown(data) {
   ## Preview
   ![](INSERT FILE PATH TO IMAGE/GIF HERE)
 
-  ###### Deployed Project
-    ${data.deployed}
+  [Deployed](${data.deployed})
 
   ## Installation
     ${data.installation}
