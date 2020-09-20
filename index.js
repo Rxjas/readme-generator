@@ -58,8 +58,7 @@ const questions = [{
     name: 'questions',
     message: 'How could someone reach you with questions about project?'
 }
-
-];
+]
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -67,7 +66,8 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions)
+    const asnwers = inquirer.prompt(questions)
+    .then(function(data){console.log(data);})
 }
 
 // function call to initialize program
