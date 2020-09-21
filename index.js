@@ -97,7 +97,6 @@ function writeToText(filename, data) {
 function init() {
     inquirer.prompt(questions)
         .then(function (data) {
-            console.log(data);
             writeToFile(markDown.generateMarkdown, data)
 
             //logic for generating the license for the project
