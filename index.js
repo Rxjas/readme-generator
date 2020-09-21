@@ -67,12 +67,12 @@ const questions = [{
 {
     type: 'input',
     name: 'test',
-    message: 'how would someone test your project?'
+    message: 'How would someone test your project?'
 },
 {
     type: 'input',
     name: 'questions',
-    message: 'How could someone reach you with questions about project?'
+    message: 'Email for users to send questions/feedback?'
 }
 ];
 

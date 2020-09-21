@@ -43,6 +43,7 @@ function generateMarkdown(data) {
     ${data.test}
 
   ## Questions?
+    [Creator](https://github.com/${data.github})
     Send to: ${data.questions}
 
 
