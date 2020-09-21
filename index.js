@@ -22,7 +22,7 @@ const questions = [{
 {
     type: 'input',
     name: 'title',
-    message: 'What is the title of your project?' 
+    message: 'What is the title of your project?'
 },
 {
     type: 'input',
@@ -32,7 +32,7 @@ const questions = [{
 {
     type: 'input',
     name: 'deployed',
-    message: 'What is the link the deployed project?' 
+    message: 'What is the link the deployed project?'
 },
 {
     type: 'input',
@@ -49,7 +49,7 @@ const questions = [{
     type: 'rawlist',
     name: 'license',
     message: 'What license would you like your project to have?',
-    choices:[
+    choices: [
         'MITLicense',
         'GNUGeneralPublicLicense',
         'Add My Own'
@@ -59,7 +59,7 @@ const questions = [{
     type: 'rawlist',
     name: 'contributing',
     message: 'What are your standards for contributing?',
-    choices:[
+    choices: [
         'Contributor Covenant V2.0',
         'Add My Own'
     ]
@@ -96,17 +96,18 @@ function writeToText(filename, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then(function(data){
-        console.log(data);
-        writeToFile(markDown.generateMarkdown, data)
-        
-            if (data.license === 'MITLicense'){
-            writeToText(markDown.generateMIT, data)
-            } else if (data.license === 'GNUGeneralPublicLicense'){
-            writeToText(markDown.generateGNU, data)
+        .then(function (data) {
+            console.log(data);
+            writeToFile(markDown.generateMarkdown, data)
+
+            //logic for generating the license for the project
+            if (data.license === 'MITLicense') {
+                writeToText(markDown.generateMIT, data)
+            } else if (data.license === 'GNUGeneralPublicLicense') {
+                writeToText(markDown.generateGNU, data)
             }
-        
-    })
+
+        })
 }
 
 
