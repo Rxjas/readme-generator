@@ -37,7 +37,7 @@ function generateMarkdown(data) {
     Copyright (c) ${data.year} ${data.fullName}
 
   ## Contributing
-    ${data.contributing}
+    This project has adopted ${data.contributing}. 
 
   ## Tests
     ${data.test}

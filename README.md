@@ -1,11 +1,11 @@
 
-  # 2
+  # 
   ![](https://img.shields.io/badge/License-MITLicense-yellow)
 
-  [Creator](https://github.com/2)
+  [Creator](https://github.com/)
 
   ## Description 
-    2
+    
 
   ## Table of Contents
   * [Preview](#Preview)
@@ -19,25 +19,25 @@
   ## Preview
   ![](INSERT FILE PATH TO IMAGE/GIF HERE)
 
-  [Deployed](2)
+  [Deployed]()
 
   ## Installation
-    2
+    
 
   ## Usage
     undefined
 
   ## License
     Licensed under the MITLicense
-    Copyright (c) 2 2
+    Copyright (c)  
 
   ## Contributing
     Contributor Covenant
 
   ## Tests
-    2
+    
 
   ## Questions?
-    Send to: 2
+    Send to: 
 
 

@@ -60,7 +60,7 @@ const questions = [{
     name: 'contributing',
     message: 'What are your standards for contributing?',
     choices:[
-        'Contributor Covenant',
+        'Contributor Covenant V2.0',
         'Add My Own'
     ]
 },
@@ -104,7 +104,7 @@ function init() {
             writeToText(markDown.generateMIT, data)
             } else if (data.license === 'GNUGeneralPublicLicense'){
             writeToText(markDown.generateGNU, data)
-            };
+            }
         
     })
 }
