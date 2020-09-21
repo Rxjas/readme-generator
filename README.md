@@ -1,11 +1,11 @@
 
-  # readme generator
+  # 2
   ![](https://img.shields.io/badge/License-MITLicense-yellow)
 
-  [Creator](https://github.com/rxjas)
+  [Creator](https://github.com/2)
 
   ## Description 
-    creates the readme you have always imagined
+    2
 
   ## Table of Contents
   * [Preview](#Preview)
@@ -19,24 +19,25 @@
   ## Preview
   ![](INSERT FILE PATH TO IMAGE/GIF HERE)
 
-  [Deployed](https://test.com)
+  [Deployed](2)
 
   ## Installation
-    easily
+    2
 
   ## Usage
     undefined
 
   ## License
     Licensed under the MITLicense
+    Copyright (c) 2 2
 
   ## Contributing
     Contributor Covenant
 
   ## Tests
-    IDK
+    2
 
   ## Questions?
-    Send to: 123@123.com
+    Send to: 2
 
 

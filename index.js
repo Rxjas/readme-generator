@@ -1,9 +1,20 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const markDown = require('./utils/generateMarkdown')
+console.log(markDown)
 
 // array of questions for user
 const questions = [{
+    type: 'input',
+    name: 'year',
+    message: 'What is the current Year?'
+},
+{
+    type: 'input',
+    name: 'fullName',
+    message: 'What is your fullname?'
+},
+{
     type: 'input',
     name: 'github',
     message: 'What is your Github username?'
@@ -26,7 +37,7 @@ const questions = [{
 {
     type: 'input',
     name: 'installation',
-    message: 'How do you install to the project?'
+    message: 'How do you install the project?'
 },
 {
     type: 'input',
@@ -70,7 +81,15 @@ const questions = [{
 function writeToFile(filename, data) {
     fs.writeFile('README.md', filename(data), (err) => {
         if (err) throw err;
-        console.log('success!')
+        console.log('README successfully created!')
+    });
+}
+
+//Function to write Licensetext
+function writeToText(filename, data) {
+    fs.writeFile('License.txt', filename(data), (err) => {
+        if (err) throw err;
+        console.log('License text successfully created!')
     });
 }
 
@@ -78,7 +97,15 @@ function writeToFile(filename, data) {
 function init() {
     inquirer.prompt(questions)
     .then(function(data){
-        writeToFile(markDown, data)
+        console.log(data);
+        writeToFile(markDown.generateMarkdown, data)
+        
+            if (data.license === 'MITLicense'){
+            writeToText(markDown.generateMIT, data)
+            } else if (data.license === 'GNUGeneralPublicLicense'){
+            writeToText(markDown.generateGNU, data)
+            };
+        
     })
 }
 
