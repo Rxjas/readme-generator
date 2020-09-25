@@ -30,7 +30,7 @@ function generateMarkdown(data) {
     ${data.installation}
 
   ## Usage
-    ${data.useage}
+    ${data.usage}
 
   ## License
     Licensed under the ${data.license}
@@ -43,7 +43,6 @@ function generateMarkdown(data) {
     ${data.test}
 
   ## Questions?
-    [Creator](https://github.com/${data.github})
     Send to: ${data.questions}
 
 

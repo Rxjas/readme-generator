@@ -1,7 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const markDown = require('./utils/generateMarkdown')
-console.log(markDown)
 
 // array of questions for user
 const questions = [{
