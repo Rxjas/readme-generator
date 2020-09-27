@@ -4,8 +4,8 @@
 
   [Creator](https://github.com/rxjas)
 
-  ## Description 
-    This is an application to help speed-up the development process by taking in the information given by the user and creating a high quality README. 
+  ## Overview
+    The Readme-generator is a node application that allows you to speed up the development process by allowing you to quickly create a README that is of high-quality, and informative.
 
   ## Table of Contents
   * [Preview](#Preview)
@@ -13,31 +13,34 @@
   * [Usage](#Usage)
   * [License](#License)
   * [Contributing](#Contributing)
-  * [Test](#Tests)
-  * [Questions?](#Questions?)
      
   ## Preview
-  ![](INSERT FILE PATH TO IMAGE/GIF HERE)
+  ![](/sampleREADME.md)
 
-  [Deployed](https://github.com/Rxjas)
 
   ## Installation
-    To begin, you must copy it down to your machine, or fork it and then copy it down onto your machine. Then install the npm packages, and install inquirer. Open your terminal and run node on the index file. Follow and fill out the questions and voila!
+  * Install node into your terminal
+  * Clone the project onto your machine
+  * Use -npm install- 
+  * Once installed do -npm install inquirer-
+  * Now run -node index.js-
 
   ## Usage
-    Have node installed, install inquirer, and then run index.js using node.
+    After following installation run -node index.js- to start the application.
+    Answer all of the questions. 
+    Review the generated README and text. 
+    Then copy the README and license text to your project folder.
+
+    *NOTE*
+    If you decide you do not need sections of the README, also delete the links to them in the Table of Contents.
 
   ## License
     Licensed under the MITLicense
-    Copyright (c) 2020 John Doe
+    Copyright (c) 2020 Christopher Rojas
 
   ## Contributing
     This project has adopted Contributor Covenant V2.0. 
 
-  ## Tests
-    Run the program with short information
 
-  ## Questions?
-    Send to: exampler@example.com
 
 
