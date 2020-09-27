@@ -15,8 +15,8 @@
   * [Contributing](#Contributing)
      
   ## Preview
-  ![](/sampleREADME.md)
-
+  ![](/utils/preview.PNG)
+  Check out an example of what the application can do in the sampleREADME
 
   ## Installation
   * Install node into your terminal
