@@ -1,11 +1,11 @@
 
-  # Readme-Generator
+  # Employee-Directory
   ![](https://img.shields.io/badge/License-MITLicense-yellow)
 
-  [Creator](https://github.com/rxjas)
+  [Creator](https://github.com/Rxjas)
 
-  ## Overview
-    The Readme-generator is a node application that allows you to speed up the development process by allowing you to quickly create a README that is of high-quality, and informative.
+  ## Description 
+    This is an application that utilizes react to display employee information in a simple and easy to read table.
 
   ## Table of Contents
   * [Preview](#Preview)
@@ -13,26 +13,19 @@
   * [Usage](#Usage)
   * [License](#License)
   * [Contributing](#Contributing)
+  * [Test](#Tests)
+  * [Questions?](#Questions?)
      
   ## Preview
-  ![](/utils/preview.PNG)
-  Check out an example of what the application can do in the sampleREADME
+  ![](INSERT FILE PATH TO IMAGE/GIF HERE)
+
+  [Deployed](https://rxjas.github.io/Employee-Directory/)
 
   ## Installation
-  * Install node into your terminal
-  * Clone the project onto your machine
-  * Use -npm install- 
-  * Once installed do -npm install inquirer-
-  * Now run -node index.js-
+    To begin you must do -npm install- to get all dependencies.
 
   ## Usage
-    After following installation run -node index.js- to start the application.
-    Answer all of the questions. 
-    Review the generated README and text. 
-    Then copy the README and license text to your project folder.
-
-    *NOTE*
-    If you decide you do not need sections of the README, also delete the links to them in the Table of Contents.
+    run -npm start- to start the react application
 
   ## License
     Licensed under the MITLicense
@@ -41,6 +34,10 @@
   ## Contributing
     This project has adopted Contributor Covenant V2.0. 
 
+  ## Tests
+    There are currently no tests. Checkout the deployed application.
 
+  ## Questions?
+    Send to: chris.rxjas@gmail.com
 
 
